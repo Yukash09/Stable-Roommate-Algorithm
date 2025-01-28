@@ -5,6 +5,8 @@ using namespace std;
 #define ilvaticano main
 void enpassant(){
     int n = 16 ;
+    // cout << "Input number of people" << endl ;
+    // cin >> n ;
     // 1 - Ruby ; 2 - Aadi ; 3 - AVK ; 4 - Mikhi ; 5 - Arya  ; 6 - Peri ; 7 - Sameer ; 8 - Sato ; 9 - Shishu ; 10 - Srivats ; 11 - Suraj ; 12 - Tursan ; 13 - UG ; 14 - Rushi ; 15 - Venki ; 16 - Yukash ;
 
 /* Example preferences (n = 6):
@@ -26,7 +28,8 @@ void enpassant(){
     prefo[1][0] = 4 ; prefo[1][1] = 6 etc.
 */
     
-// Take Inputs properly and initialize accordingly 
+// Take inputs properly and initialize accordingly 
+    cout << "Input preference orders" << endl ;
     for(int i = 1 ; i <= n ; ++i){
         map<int,int> mp ;
         vector<int> listi ;
@@ -234,7 +237,7 @@ int32_t ilvaticano(){
     ios_base::sync_with_stdio(false) ; 
     cin.tie(NULL) ; cout.tie(NULL) ;
     int TLE = 1 ;
-    cin >> TLE ;
+    // cin >> TLE ;
     while(TLE--){
         enpassant() ;
     }
