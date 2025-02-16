@@ -7,7 +7,6 @@ void enpassant(){
     int n = 16 ;
     // cout << "Input number of people" << endl ;
     // cin >> n ;
-    // 1 - Ruby ; 2 - Aadi ; 3 - AVK ; 4 - Mikhi ; 5 - Arya  ; 6 - Peri ; 7 - Sameer ; 8 - Sato ; 9 - Shishu ; 10 - Srivats ; 11 - Suraj ; 12 - Tursan ; 13 - UG ; 14 - Rushi ; 15 - Venki ; 16 - Yukash ;
 
 /* Example preferences (n = 6):
     1: 4 6 2 5 3
